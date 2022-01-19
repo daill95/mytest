@@ -22,7 +22,7 @@ func testStructJson(){
 		Skill : "牛魔犬",
 	}
 
-	date, err := json.Marshal(&monster)
+	date, err := json.Marshal(monster)
 	if err != nil{
 		fmt.Println("序列化失败")
 	}
